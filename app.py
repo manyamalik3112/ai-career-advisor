@@ -8,13 +8,13 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="AI Career Advisor", layout="wide")
 
 st.markdown("""
-# 📊 AI Career Advisor  
-### 🚀 Analyze job trends & get personalized career recommendations  
+# 📊 Data Analytics Career Insights Dashboard  
+### 📌 Data-driven exploration of job trends, salaries & career paths in Data Science  
 
-This dashboard helps you:
-- 📈 Understand salary trends  
-- 🎯 Discover best-fit roles  
-- 📚 Identify skill gaps  
+This tool enables:
+- 📈 Salary trend analysis across roles  
+- 🎯 Skill-based career recommendations  
+- 📚 Gap analysis for skill improvement planning  
 """)
 
 # -----------------------------
