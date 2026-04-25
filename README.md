@@ -80,18 +80,14 @@ streamlit run app.py
 
 ## 📸 Dashboard Preview
 
-> The following snapshots showcase the interactive dashboard built using Streamlit
+### Home Page
+![Home](./home.png)
 
-![Home](images/home.png)  
-*Home dashboard showing overview of job trends and filters*
+### Salary Analysis
+![Salary Analysis](./chart.png)
 
-![Salary Analysis](images/salary.png)  
-*Visualization of salary distribution and role-wise analysis*
-
-![Recommendations](images/recommendations.png)  
-*Personalized career recommendations based on skill matching*
-
----
+### Recommendations
+![Recommendations](./recommendations.png)
 
 ## 🌐 Future Improvements
 
