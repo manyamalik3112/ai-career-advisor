@@ -1,4 +1,4 @@
-# 📊 AI Career Advisor Dashboard
+Data Analytics-based Career Insights Dashboard with Rule-Based Recommendation System
 
 ## 🚀 Overview
 
