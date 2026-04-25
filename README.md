@@ -78,23 +78,31 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
----
-
 ## 📸 Dashboard Preview
-![Home](images/home.png)
-![Salary Analysis](images/chart.png)
-![Recommendations](images/recommendations.png)
+
+> The following snapshots showcase the interactive dashboard built using Streamlit
+
+![Home](images/home.png)  
+*Home dashboard showing overview of job trends and filters*
+
+![Salary Analysis](images/salary.png)  
+*Visualization of salary distribution and role-wise analysis*
+
+![Recommendations](images/recommendations.png)  
+*Personalized career recommendations based on skill matching*
 
 ---
 
 ## 🌐 Future Improvements
 
-* Resume upload → automated skill extraction
-* ML-based recommendation model
-* Integration with real-time job APIs
-* Enhanced UI with advanced visualizations
+This project can be further enhanced in the following ways:
 
----
+- 📄 Resume upload feature for automatic skill extraction  
+- 🤖 Machine learning-based recommendation system  
+- 🔗 Integration with real-time job market APIs  
+- 📊 Advanced interactive visualizations using Plotly / Power BI  
+- 🧠 NLP-based skill parsing from job descriptions
+
 
 ## 👩‍💻 Author
 
