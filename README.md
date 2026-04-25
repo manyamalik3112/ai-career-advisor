@@ -2,25 +2,25 @@
 
 ## 🚀 Overview
 
-This project is an interactive **data analytics + career recommendation system** that analyzes Data Science job trends in India and suggests personalized career paths based on user skills.
+An interactive **data analytics and career recommendation system** that analyzes Data Science job trends in India and provides personalized career suggestions based on user skills.
 
-It combines **data analysis, visualization, and rule-based AI logic** to simulate how real-world career recommendation systems work.
+The project combines **data analysis, visualization, and rule-based recommendation logic** to simulate real-world career advisory systems.
 
 ---
 
 ## 🎯 Problem Statement
 
-Students often struggle to:
+Students often lack clarity on:
 
-* Understand salary trends across data roles
-* Identify which role matches their skills
-* Know what skills they are missing
+* Salary trends across data roles
+* Which career path matches their skills
+* What skills they need to improve
 
-This project solves that by providing **data-driven career insights + recommendations**.
+This project addresses these gaps using **data-driven insights and intelligent recommendations**.
 
 ---
 
-## ⚙️ Features
+## ⚙️ Key Features
 
 ### 📊 Data Analysis Dashboard
 
@@ -28,63 +28,40 @@ This project solves that by providing **data-driven career insights + recommenda
 * Average salary comparison by job title
 * Experience vs salary trends
 
-### 🤖 AI Career Advisor
+### 🤖 Career Recommendation Engine
 
-* Skill-based role recommendation
-* Weighted skill matching algorithm
-* Top 5 career suggestions
+* Skill-based job role suggestions
+* Weighted skill-matching algorithm
+* Top 5 personalized career recommendations
 
 ### 📚 Skill Gap Analysis
 
 * Identifies missing skills for each role
-* Helps users plan learning roadmap
+* Provides actionable learning direction
 
-### 🎯 Smart Filtering
+### 🎯 Interactive Filters
 
-* Filter by:
-
-  * Experience level
-  * Salary range
-  * Job roles
+* Experience level
+* Salary range
+* Job roles
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Python**
-* **Pandas** – data processing
-* **Matplotlib** – data visualization
-* **Streamlit** – interactive dashboard
+* Python
+* Pandas (data processing)
+* Matplotlib (visualization)
+* Streamlit (interactive UI)
 
 ---
 
 ## 🧠 How It Works
 
-1. **Data Cleaning**
-
-   * Removes unnecessary columns
-   * Converts salary strings → numeric values
-
-2. **Exploratory Analysis**
-
-   * GroupBy operations for salary insights
-   * Aggregation by job roles & experience
-
-3. **Recommendation Engine**
-
-   * Predefined skill-role mapping
-   * Weighted scoring system:
-
-     * Core skills (Python, ML) → higher weight
-     * Supporting skills → lower weight
-
-4. **Final Ranking**
-
-   * Combines:
-
-     * Skill match score
-     * Average salary
-   * Outputs top career options
+* Cleaned and processed job dataset (salary normalization, column handling)
+* Performed exploratory data analysis using aggregation techniques
+* Built a **weighted scoring system** for skill-role matching
+* Combined skill scores with salary insights to rank career options
 
 ---
 
@@ -103,37 +80,35 @@ streamlit run app.py
 
 ---
 
-## 📸 Demo Preview
+## 📸 Demo
 
-(Add screenshots here after deployment)
+(Add screenshots or deployed app link here)
 
 ---
 
 ## 🌐 Future Improvements
 
-* Resume upload → automatic skill extraction
-* ML-based recommendation system
-* Real-time job API integration
-* Better UI/UX with advanced charts
+* Resume upload → automated skill extraction
+* ML-based recommendation model
+* Integration with real-time job APIs
+* Enhanced UI with advanced visualizations
 
 ---
 
 ## 👩‍💻 Author
 
-**Manya Malik**
+Manya Malik
 
 ---
 
-## ⭐ Why This Project Matters
+## ⭐ Project Highlights
 
-This project demonstrates:
-
-* Real-world data analysis workflow
-* Business understanding of salary trends
-* Practical implementation of recommendation logic
+* Built an end-to-end **data analytics dashboard + recommendation system**
+* Implemented **weighted skill-matching logic for career prediction**
+* Designed an interactive UI for real-time user input and insights
 
 ---
 
 ## 🔗 Live App
 
-(Add your Streamlit link here after deployment)
+(Add Streamlit deployment link here)
