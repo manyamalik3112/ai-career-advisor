@@ -80,9 +80,10 @@ streamlit run app.py
 
 ---
 
-## 📸 Demo
-
-(Add screenshots or deployed app link here)
+## 📸 Dashboard Preview
+![Home](images/home.png)
+![Salary Analysis](images/chart.png)
+![Recommendations](images/recommendations.png)
 
 ---
 
