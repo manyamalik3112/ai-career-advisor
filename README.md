@@ -111,4 +111,4 @@ Manya Malik
 
 ## 🔗 Live App
 
-(Add Streamlit deployment link here)
+https://ai-career-advisor-lodisbyttuww2ijyl2ahpb.streamlit.app/
