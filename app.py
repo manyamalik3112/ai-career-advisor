@@ -76,7 +76,7 @@ st.subheader("📊 Salary Distribution")
 
 fig1, ax1 = plt.subplots()
 ax1.hist(filtered_df['avg_salary'], bins=15)
-ax1.set_title("Salary Distribution Across Roles")
+ax1.set_title("Distribution of Average Salaries Across Data Science Roles")
 ax1.set_xlabel("Salary (LPA)")
 ax1.set_ylabel("Frequency")
 st.pyplot(fig1)
@@ -120,6 +120,7 @@ growth = df.groupby('min_experience')['avg_salary'].mean().pct_change().mean()
 st.write(f"• Average salary across roles is **{round(avg_salary,2)} LPA**")
 st.write(f"• Highest paying role is **{max_role}**")
 st.write(f"• Salary grows ~**{round(growth*100,1)}% per experience level**")
+st.write("• Data roles show significant variation in salary based on experience and skill combination.")
 
 # -----------------------------
 # AI CAREER ADVISOR
@@ -253,3 +254,6 @@ st.download_button(
 st.subheader("📊 Salary Summary")
 
 st.dataframe(df['avg_salary'].describe())
+st.markdown("---")
+st.caption("Built using Python • Pandas • Streamlit • Matplotlib")
+st.markdown("---")
