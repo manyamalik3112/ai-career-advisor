@@ -7,7 +7,15 @@ import matplotlib.pyplot as plt
 # -----------------------------
 st.set_page_config(page_title="AI Career Advisor", layout="wide")
 
-st.title("📊 Data Science Career Dashboard & Advisor")
+st.markdown("""
+# 📊 AI Career Advisor  
+### 🚀 Analyze job trends & get personalized career recommendations  
+
+This dashboard helps you:
+- 📈 Understand salary trends  
+- 🎯 Discover best-fit roles  
+- 📚 Identify skill gaps  
+""")
 
 # -----------------------------
 # LOAD DATA
